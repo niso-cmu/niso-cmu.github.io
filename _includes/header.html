@@ -1,4 +1,5 @@
 <header class="site-header">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
   <div class="container header-inner">
     <a class="brand" href="{{ '/' | relative_url }}">
       <img class="brand-logo" src="{{ '/assets/img/Red.png' | relative_url }}" alt="NISO logo">
@@ -10,6 +11,11 @@
            class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
       {% endfor %}
     </nav>
-    <a class="btn btn-small join-btn" href="{{ site.links.join_form }}" target="_blank" rel="noopener">Join NISO</a>
+    <a class="btn btn-small join-btn header-join-btn" href="{{ site.links.join_form }}" target="_blank" rel="noopener">Join NISO</a>
+    <label for="nav-toggle" class="nav-toggle-btn" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
   </div>
 </header>
