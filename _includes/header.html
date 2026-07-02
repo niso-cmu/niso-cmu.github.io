@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">NISO</a>
+    <nav class="site-nav">
+      {% for item in site.navigation %}
+        <a href="{{ item.url | relative_url }}"
+           class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+    <a class="btn btn-small join-btn" href="{{ site.links.join_form }}" target="_blank" rel="noopener">Join NISO</a>
+  </div>
+</header>

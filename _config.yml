@@ -1,0 +1,44 @@
+title: NISO — Neuroscience Institute Student Organization
+description: The student organization for the Carnegie Mellon Neuroscience Institute (CMU NI)
+baseurl: ""
+url: "https://niso-cmu.github.io"
+
+# Quick links used across the site (edit these in one place)
+links:
+  join_form: "https://docs.google.com/forms/d/e/1FAIpQLSdO4RzQUHEwcachz1sBPcfaQ-wQJ3JELHLWWpMnahNCMd7lJg/viewform?usp=header"
+  ni_intranet: "https://intranet.ni.cmu.edu"
+  cnbc_website: "https://www.cnbc.cmu.edu/"
+  cnbc_slack: "https://join.slack.com/t/cnbc-pittsburgh/shared_invite/zt-2760kpflg-DiJZ2AjNzxAYp34vmqFIxA"
+  cnbc_students_list: "https://lists.ni.cmu.edu/mailman/listinfo/cnbc-students"
+  ni_mailing_lists: "https://intranet.ni.cmu.edu/neuroscience-institute-mailing-lists/"
+  wiki: "https://github.com/niso-cmu/wiki/wiki"
+  calendar_niso: "https://calendar.google.com/calendar/u/1?cid=Y19sdjU4a3FnMmM1NjNtb2dzNHVpYTk1NHY1MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+  calendar_ni_outreach: "https://calendar.google.com/calendar/u/1?cid=bmlzb0BhbmRyZXcuY211LmVkdQ"
+  calendar_cnbc_events: "https://thecnbc.notion.site/CNBC-Wiki-5e32dd75e92e4400baa274be7c5c4527?p=18f2598870f380da9994e1ed37f2accc&pm=c&pvs=25#18f2598870f3807a836ddb3e5349266c"
+  # NISO's Slack: ask Melissa for a permanent invite link, then update this
+  ni_slack: ""
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Join & Resources
+    url: /join/
+  - title: Guide
+    url: /guide/
+  - title: Calendars
+    url: /calendars/
+  - title: Projects
+    url: /projects/
+  - title: Wiki
+    url: /wiki/
+
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
