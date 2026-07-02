@@ -48,12 +48,21 @@ h1, h2, h3 { line-height: 1.25; }
 }
 
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-weight: 800;
   font-size: 1.25rem;
   color: var(--cmu-dark);
   letter-spacing: 0.02em;
 }
 .brand:hover { text-decoration: none; }
+
+.brand-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+}
 
 .site-nav {
   display: flex;

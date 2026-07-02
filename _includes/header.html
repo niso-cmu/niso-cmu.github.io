@@ -1,6 +1,9 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="{{ '/' | relative_url }}">NISO</a>
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img class="brand-logo" src="{{ '/assets/img/Red.png' | relative_url }}" alt="NISO logo">
+      <span>NISO</span>
+    </a>
     <nav class="site-nav">
       {% for item in site.navigation %}
         <a href="{{ item.url | relative_url }}"
