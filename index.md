@@ -4,6 +4,7 @@ title: Home
 ---
 
 <section class="hero">
+  <img class="hero-logo" src="{{ '/assets/img/Red.png' | relative_url }}" alt="NISO logo">
   <h1>NISO</h1>
   <p>The Neuroscience Institute Student Organization at Carnegie Mellon University — connecting Masters and PhD students across the CMU Neuroscience Institute.</p>
   <div class="hero-actions">
